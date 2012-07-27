@@ -8,4 +8,5 @@
 !.vim
 !.vimrc
 !.xinitrc
-!.xmonad
+!.xmonad/
+!.xmonad/xmonad.hs
