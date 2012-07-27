@@ -3,6 +3,9 @@
 !.Xresources
 !.bash_profile
 !.bashrc
+!.fonts
+!.fonts/*
+!.fonts/*/*.ttf
 !.gitignore
 !.gitmodules
 !.profile
