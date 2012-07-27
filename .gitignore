@@ -1,0 +1,11 @@
+*
+
+!.bash_profile
+!.bashrc
+!.gitignore
+!.gitmodules
+!.profile
+!.vim
+!.vimrc
+!.xinitrc
+!.xmonad
