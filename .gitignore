@@ -3,12 +3,14 @@
 !.Xresources
 !.bash_profile
 !.bashrc
-!.fonts
-!.fonts/*
+!.fonts/
+!.fonts/*/
 !.fonts/*/*.ttf
 !.gitignore
 !.gitmodules
 !.profile
+!.profile.d/
+!.profile.d/*.sh
 !.vim
 !.vimrc
 !.xinitrc
