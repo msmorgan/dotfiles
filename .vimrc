@@ -2,11 +2,24 @@ set shortmess+=I
 set laststatus=2
 set mouse=a
 
-call pathogen#infect()
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'tpope/vim-surround'
+Plugin 'kien/ctrlp.vim'
+Plugin 'bling/vim-airline'
+
+call vundle#end()
+
 filetype plugin indent on
 syntax on
 
-set nu
+set number
+set relativenumber
 
 set softtabstop=4
 set shiftwidth=4
@@ -16,8 +29,9 @@ set listchars=tab:>-,trail:~,eol:$,extends:>,precedes:<,nbsp:%
 noremap <F11> :set list!<CR>
 
 set encoding=utf-8
-set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 10
+set guifont=Roboto\ Mono\ for\ Powerline\ 10
 let g:Powerline_symbols='fancy'
+let g:airline_powerline_fonts=1
 
 augroup filetype
     au! BufRead,BufNewFile *.ll     set filetype=llvm
