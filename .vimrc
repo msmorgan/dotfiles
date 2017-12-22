@@ -9,9 +9,12 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 
-Plugin 'tpope/vim-surround'
-Plugin 'kien/ctrlp.vim'
 Plugin 'bling/vim-airline'
+Plugin 'kien/ctrlp.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-surround'
 
 call vundle#end()
 
@@ -29,7 +32,7 @@ set listchars=tab:>-,trail:~,eol:$,extends:>,precedes:<,nbsp:%
 noremap <F11> :set list!<CR>
 
 set encoding=utf-8
-set guifont=Roboto\ Mono\ for\ Powerline\ 10
+set guifont=InputMono\ 14
 let g:Powerline_symbols='fancy'
 let g:airline_powerline_fonts=1
 

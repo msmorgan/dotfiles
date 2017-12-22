@@ -11,8 +11,10 @@
 !.profile
 !.profile.d/
 !.profile.d/*.sh
+!.spacemacs
 !.vim
 !.vimrc
 !.xinitrc
 !.xmonad/
 !.xmonad/xmonad.hs
+!.zshrc
